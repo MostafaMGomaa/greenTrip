@@ -27,7 +27,7 @@ const activitySchema = new mongoose.Schema(
     },
     photo: {
       type: String,
-      required: [true, 'Please provide Photo to the activity'],
+      // required: [true, 'Please provide Photo to the activity'],
     },
   },
   {
